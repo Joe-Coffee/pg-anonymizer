@@ -8,6 +8,9 @@
   },
   "bugs": "https://github.com/rap2hpoutre/pg-anonymizer/issues",
   "dependencies": {
+    "@types/faker": "^5.1.6",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^12",    
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
@@ -16,9 +19,6 @@
     "tslib": "^1"
   },
   "devDependencies": {
-    "@types/faker": "^5.1.6",
-    "@types/fs-extra": "^9.0.13",
-    "@types/node": "^12",
     "@oclif/dev-cli": "^1",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
