@@ -42,7 +42,7 @@
   "oclif": {
     "bin": "pg-anonymizer"
   },
-  "repository": "rap2hpoutre/pg-anonymizer",
+  "repository": "https://github.com/Joe-Coffee/lib-contracts",
   "scripts": {
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
