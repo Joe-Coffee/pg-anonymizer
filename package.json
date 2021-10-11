@@ -1,7 +1,7 @@
 {
   "name": "@joe-coffee/pg-anonymizer",
   "description": "Export your postgreSQL database anonymized",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "author": "Raphaël Huchet @rap2hpoutre",
   "bin": {
     "pg-anonymizer": "./bin/run"

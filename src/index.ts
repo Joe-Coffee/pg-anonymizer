@@ -19,14 +19,14 @@ function postgreSQLDate(date: Date) {
 class PgAnonymizer extends Command {
   static description = "dump anonymized database";
 
-  static args = [
-    {
-      name: "database",
-      description:
-        "database connection string, e.g: `postgresql://user:secret@localhost:1234/mybase`",
-      required: true,
-    },
-  ];
+  static args = [];
+  //   {
+  //     name: "database",
+  //     description:
+  //       "database connection string, e.g: `postgresql://user:secret@localhost:1234/mybase`",
+  //     required: false,
+  //   },
+  // ];
 
   static flags = {
     version: flags.version({ char: "v" }),
